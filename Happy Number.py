@@ -30,3 +30,11 @@ class Solution:
             output += digit
             n = n // 10
         return output
+
+    
+    # Solution 2
+    # seen = set()
+    #     while n not in seen:
+    #         seen.add(n)
+    #         n = sum([int(x) **2 for x in str(n)])
+    #     return n == 1
